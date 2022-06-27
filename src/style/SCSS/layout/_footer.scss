@@ -1,0 +1,136 @@
+@media(max-width:768px){
+    footer{
+        background-color: $Very-Dark-Violet;
+        .main-container{
+            text-align: center;
+            padding: 2rem 0;
+            .logo-container{
+                margin-bottom: 2rem;
+                svg{
+                    path{
+                        fill: white;
+                    }
+                }
+            }
+            .nav-container{
+                color: $Grayish-Violet;
+                h1{
+                    font-size: 1rem;
+                    color: white;
+                    margin-bottom: 1rem;
+                }
+                ul{
+                    margin-bottom: 2rem;
+                    li{
+                        font-size: 0.7rem;
+                        margin-bottom: 0.4rem;
+                    }
+                }
+            }
+            .icon-container{
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem;
+                margin-top: 3rem;
+
+            }
+        }
+        .attr{
+            background-color: black;
+            color: $Grayish-Violet;
+            text-align: center;
+            padding: 1rem 0;
+            font-size: 0.6rem;
+            a{
+                color: $Cyan;
+            }
+        }
+    
+    }
+}
+
+@media(min-width:769px){
+    footer{
+        background-color: $Very-Dark-Violet;
+        .main-container{
+            width: $larg-width;
+            margin: auto;
+            display: flex;
+            padding: 3rem 0 ;
+            .logo-container{
+                height: fit-content;
+                width: 500px;
+                svg{
+                    path{
+                        fill: white;
+                    }
+                }
+            }
+            .nav-container{
+                display: flex;
+                gap: 4rem;
+                color: $Grayish-Violet;
+                width: 460px;
+                h1{
+                    font-size: 1rem;
+                    color: white;
+                    margin-bottom: 1rem;
+                }
+                ul{
+                    li{
+                        font-size: 0.7rem;
+                        margin-bottom: 0.4rem;
+                        cursor: pointer;
+                        &:hover{
+                            color: $Cyan;
+                        }
+                    }
+                }
+            }
+            .icon-container{
+                display: flex;
+                justify-content: center;
+                gap: 1.5rem;
+                width: 200px;
+                svg{
+                    cursor: pointer;
+                    &:hover{
+                        transform: scale(1.1,1.1);
+                        path{
+                            fill: $Cyan;
+                        }
+                    }
+    
+                }
+            }
+        }
+        .attr{
+            background-color: black;
+            color: $Grayish-Violet;
+            text-align: center;
+            padding: 1rem 0;
+            a{
+                color: $Cyan;
+            }
+        }
+    
+    }
+}
+
+@media (min-width:769px) and (max-width:1200px){
+    footer{
+        .main-container{
+            width: $meduim-width;
+            .logo-container{
+                width: 234px;
+            }
+            .nav-container{
+                width: 360px;
+                gap: 2rem;
+            }
+            .icon-container{
+                width: 166px;
+            }
+        }
+    }
+}
