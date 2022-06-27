@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/url-shortening-api/static/css/main.bed3200f.css",
+    "main.js": "/url-shortening-api/static/js/main.52a01b24.js",
+    "static/media/bg-boost-desktop.svg": "/url-shortening-api/static/media/bg-boost-desktop.772154c9b0e451733f5e.svg",
+    "index.html": "/url-shortening-api/index.html",
+    "static/media/bg-boost-mobile.svg": "/url-shortening-api/static/media/bg-boost-mobile.4b04bd89ea775da3deff.svg",
+    "static/media/bg-shorten-desktop.svg": "/url-shortening-api/static/media/bg-shorten-desktop.0d9742f433f4b0d8752b.svg",
+    "static/media/bg-shorten-mobile.svg": "/url-shortening-api/static/media/bg-shorten-mobile.41c34b33a14a3077e506.svg",
+    "main.bed3200f.css.map": "/url-shortening-api/static/css/main.bed3200f.css.map",
+    "main.52a01b24.js.map": "/url-shortening-api/static/js/main.52a01b24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bed3200f.css",
+    "static/js/main.52a01b24.js"
+  ]
+}
